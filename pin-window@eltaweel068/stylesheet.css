@@ -1,0 +1,10 @@
+.pin-window-icon {
+    opacity: 140;
+    transition: opacity 200ms ease, color 200ms ease;
+}
+
+.pin-window-icon.pin-window-active {
+    opacity: 255;
+    color: #5eb3ff;
+    text-shadow: 0 0 6px rgba(94, 179, 255, 0.7);
+}

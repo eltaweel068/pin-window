@@ -1,0 +1,9 @@
+{
+  "uuid": "pin-window@eltaweel068",
+  "name": "Pin Window",
+  "description": "Pin the focused window to all workspaces and keep it always on top. Useful for popup video players.",
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "url": "https://github.com/eltaweel068/pin-window",
+  "settings-schema": "org.gnome.shell.extensions.pin-window",
+  "gettext-domain": "pin-window"
+}

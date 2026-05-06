@@ -1,0 +1,11 @@
+*.zip
+**/schemas/gschemas.compiled
+__pycache__/
+.venv/
+.DS_Store
+
+# Markdown documentation files
+*.md
+
+# GitHub templates and workflows
+.github/

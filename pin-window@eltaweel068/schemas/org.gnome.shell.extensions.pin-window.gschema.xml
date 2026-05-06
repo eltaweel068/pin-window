@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pin-window" path="/org/gnome/shell/extensions/pin-window/">
+    <key name="toggle-pin" type="as">
+      <default><![CDATA[['<Super>p']]]></default>
+      <summary>Toggle pin on focused window</summary>
+      <description>Keybinding to pin/unpin the currently focused window to all workspaces.</description>
+    </key>
+
+    <key name="panel-box" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>"right"</default>
+      <summary>Panel box for the indicator</summary>
+      <description>Which area of the top panel hosts the pin icon.</description>
+    </key>
+
+    <key name="panel-index" type="i">
+      <default>0</default>
+      <summary>Index inside panel box</summary>
+      <description>Position of the indicator inside the chosen panel box (0 = first).</description>
+    </key>
+
+    <key name="pin-opacity" type="i">
+      <range min="50" max="255"/>
+      <default>255</default>
+      <summary>Opacity of pinned windows (0-255)</summary>
+      <description>Window opacity applied while pinned. 255 = fully opaque, lower values make pinned windows see-through.</description>
+    </key>
+  </schema>
+</schemalist>
