@@ -10,9 +10,7 @@ Pin the focused window to all workspaces and keep it always on top. Useful for b
 
 ## Demo
 
-[▶ Watch the demo video](./pin-window-demo.mp4)
-
-![Pin Window icon](./pin-window-icon.png)
+[▶ Watch the demo video ](https://raw.githubusercontent.com/eltaweel068/pin-window/main/pin-window-demo.mp4)
 
 ---
 
@@ -107,7 +105,6 @@ The issue did not get attention, so I built this GNOME Shell extension instead.
 .
 ├── pin-window-demo.mp4
 ├── install.sh
-├── pin-window-icon.png
 ├── README.md
 └── pin-window@eltaweel068/
     ├── extension.js
